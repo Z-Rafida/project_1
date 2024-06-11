@@ -2,65 +2,44 @@ body{
     margin: 0;
     padding: 0;
 }
-
-.headerbg {
-    background-color: #6594E4;
+header{
+    background-image: url(../images/woman.avif);
     background-position: center;
     background-size: cover;
-    height: 70vh;
-}
-
-#logo{
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+    height: 30px;
+    padding: 1rem;
 }
-nav a:hover{
-    color: red;
+#logo{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
 
-#links{
+#lists{
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin-right: 10rem;
+    gap: 50px;
 }
 
-.item{
+.li_list{
     text-decoration: none;
     color: white;
 }
 
-#img1{
-    height: 20vh;
-    padding: 10rem;
-    padding-top: 5rem;
+.btn1 a{
+    text-decoration: none;
 }
 
-.p1{
-    /* font-family: monospace; */
-    font-size: 2rem;
+.text_div{
     color: white;
+    padding: 5rem;
+    margin-top: 5rem;
 }
-
-.p2{
-    font-size: 1.5rem;
-    color: white;
-}
-
-#text1{
-    margin: 100px;
-    margin-bottom: 10px;
-}
-
-
