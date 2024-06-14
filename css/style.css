@@ -15,7 +15,6 @@ nav {
     justify-content: space-between;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.279);
-    /* position: fixed; */
 }
 
 #logo {
@@ -64,15 +63,15 @@ nav {
 
 #btn2 {
     padding: 0.5rem;
-    border-radius: 10px;
+    /* border-radius: 20px; */
 }
 
 #btn2 a {
     text-decoration: none;
 }
 
-.btn2 {
-    padding: 20px;
+#btn2 {
+    padding: 10px;
     border-radius: 30px;
     font-family: sans-serif;
     font-size: 20px;
@@ -80,8 +79,6 @@ nav {
     border-color: rgba(128, 128, 128, 0.087);
     color: rgb(103, 76, 76);
 }
-
-
 
 #sec1 {
     height: 80vh;
